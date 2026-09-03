@@ -1,1 +1,57 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+* {
+    margin: 0;
+}
+.header {
+    background-color: rgb(238, 58, 133);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-color: aqua;
+}
+
+.container{
+    background-color: rgb(226, 43, 202);
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+a {
+    color: rgb(194, 149, 0);
+    text-decoration: none;
+    
+}
+
+.banner .container{
+    background-color: rgb(13, 89, 175);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 1380px;
+}
+
+.paragrafo_banner{
+    color: aliceblue;
+    font-size: 35px;
+    max-width: 230px;
+}
+
+span {
+    font-weight: bold;
+}
