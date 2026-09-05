@@ -43,6 +43,10 @@ body {
     font-size: 12px;
 }
 
+a:hover{
+    color: rgb(255, 225, 0);
+}
+
 .navbar li {
     color: rgb(240, 199, 64);
     text-decoration: none;
@@ -128,3 +132,78 @@ span {
 .footer span{
     color: white;
 }
+
+/* TELA LOGIN */
+.login .container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+}
+
+.card {
+    background-color: blueviolet;
+    width: 45%;
+    height: 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    background-color: rgb(235, 237, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-login h2 {
+    font-size: 25px;
+    color: rgb(221, 44, 74);
+}
+.formulario{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.campo {
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(221, 44, 74);
+}
+
+.campo input {
+    font-size: 12px;
+    text-align: center;
+    height: 25px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: rgb(3, 186, 186)
+}
+
+.botao {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
