@@ -121,7 +121,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 90px;
     margin: 0;
 }
 
@@ -144,9 +144,7 @@ span {
 }
 
 .card {
-    background-color: blueviolet;
     width: 45%;
-    height: 45%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -165,6 +163,7 @@ span {
     font-size: 25px;
     color: rgb(221, 44, 74);
 }
+
 .formulario{
     height: 150px;
     width: 100%;
@@ -175,7 +174,6 @@ span {
 }
 
 .campo {
-
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -207,3 +205,58 @@ span {
     border-radius: 5px;
 }
 
+/* TELA CADASTRO */
+.card-cadastro {
+    background-color: rgb(235, 237, 237);
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro  h2 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-cadastro .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    gap: 6px;
+}
+
+.card-cadastro .botao {
+    margin: 30px;
+    font-weight: bold;
+}
+
+/* SIMULADOR */
+.simulador {
+    background-image:  url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+
+.simulador .container {
+    background-color: rgb(235, 237, 237);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.simulador h2 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    padding: 2pc;
+}
